@@ -1,0 +1,32 @@
+html {
+  background: url(1.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.container {
+  height: 97.7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  height: 8vh;
+  width: 21vh;
+  padding: 15px 25px;
+  cursor: pointer;
+  background-color: rgb(152, 170, 253);
+  border: 3px solid rgb(68, 101, 247);
+  font-size: 18px;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  height: 8vh;
+  width: 21vh;
+  font-size: 18px;
+  background-color: rgba(66, 142, 255, 0.349);
+  border: 3px solid rgb(50, 132, 255);
+  box-shadow: 0px 20px 15px -15px rgb(2, 103, 255);
+  transform: translateY(-10px);
+}
